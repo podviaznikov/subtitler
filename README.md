@@ -1,10 +1,9 @@
 # subtitler- offline application for fixing subtitles
-subtitler is offline application that works in browser and help you to fix subtitles unsynchronized with auduio/video.
+subtitler is offline application that works in browser and helps you to fix subtitles unsynchronized with auduio/video.
 
 
 ## Feedback
 With any questions fell free to contact me on anton.podviaznikov@enginimation.com
-
 
 
 ## License
