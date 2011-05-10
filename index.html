@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subtitles converter</title>
+    <meta name="author" content="Enginimation Studio(enginimation.com)">
+    <meta name="description" content="Service for fixing subtitles (srt) files">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/lib/libs.bundle.js"></script>
+    <script src="js/app/app.js"></script>
+    <script>$(function(){AppController.init();});</script>
+</head>
+<body>
+<div id="drop_zone">Just drop subtitles file here</div>
+<section id="toolbar">
+    <label for="seconds_delta">Time difference</label>
+    <input type="number" id="seconds_delta" value="1">
+    <button class="button" id="fix_subtitles">Update subtitles</button>
+</section>
+<textarea id="fixed_subtitles"></textarea>
+<section id="help" class="infobox">
+    <h1>How to use</h1>
+    <ol>
+        <li>Drop broken subtitles on the page (take it from your desktop directly to the panel on the top)</li>
+        <li>Calculate for how many seconds subtitles are unsyncronized with the audio(do it manually, it's really easy!) and fill "Time difference" input</li>
+        <li>Press "Update subtitles"</li>
+        <li>Copy fixed subtitles to srt file</li>
+        <li>Enjoy your movie!</li>
+    </ol>
+</section>
+<footer id="site_footer">
+    <div id="footer_top_border" class="footer_border"></div>
+    <div id="footer_bottom_border" class="footer_border"></div>
+    <article id="footer_info">
+        <section id="site_info">
+            This service was developed for you by Enginimation Studio and Pavel Podviaznikov in 2011.
+            <p>Have any problems/ideas? Contact <a href='mailto:hello@enginimation.com'> us</a></p>
+        </section>
+    </article>
+</footer>
+</body>
+</html>

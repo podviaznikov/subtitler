@@ -1,0 +1,17 @@
+{
+  "name": "Subtitler",
+  "description": "Application for fixing your unsyncronized subtitles files",
+  "version": "1.6",
+  "app": {
+    "launch": {
+      "local_path": "index.html"  
+    }
+  },
+  "icons": {
+    "128": "128.png",
+    "16": "16.png"  
+  },
+  "permissions": [
+    "unlimitedStorage"
+  ]
+}
