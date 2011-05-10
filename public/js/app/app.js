@@ -1,4 +1,6 @@
-// (c) 2011 Enginimation Studio (http://enginimation.com). All Rights Reserved.
+// subtitler
+// (c) 2011 Enginimation Studio (http://enginimation.com).
+// subtitler may be freely distributed under the MIT license.
 "use strict";
 var AppController=
 {
