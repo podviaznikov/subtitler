@@ -45,7 +45,16 @@ function fixSubtitles(source,delta)
                 hours=parseInt(hours)+1;
                 minutes=minutes-60;
             }
-
+            while(parseInt(seconds)<0)
+            {
+                minutes=parseInt(minutes)-1;
+                seconds=seconds+60;
+            }
+            while(parseInt(minutes)<0)
+            {
+                hours=parseInt(hours)-1;
+                minutes=minutes+60;
+            }
             new_time.push(hours+":"+minutes+":"+seconds+","+seconds_with_millis[1]);
         }
 
